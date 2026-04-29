@@ -79,6 +79,7 @@ streamlit run app.py
 ## 📁 Project Structure
 
 weather_aqi_dashboard/
+
 ├── app.py          # Streamlit dashboard
 ├── main.py         # Terminal version
 ├── .env            # API keys (not uploaded)
