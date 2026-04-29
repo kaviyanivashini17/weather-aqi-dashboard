@@ -6,8 +6,8 @@ from datetime import datetime
 
 load_dotenv()
 
-WEATHER_KEY = os.getenv("OPENWEATHER_API_KEY")
-AQI_KEY = os.getenv("AQI_API_KEY")
+WEATHER_KEY = st.secrets.get("OPENWEATHER_API_KEY") or os.getenv("OPENWEATHER_API_KEY")
+AQI_KEY = st.secrets.get("AQI_API_KEY") or os.getenv("AQI_API_KEY")
 
 # ── Page config ────────────────────────────────
 st.set_page_config(
