@@ -81,9 +81,13 @@ streamlit run app.py
 weather_aqi_dashboard/
 
 ├── app.py          # Streamlit dashboard
+
 ├── main.py         # Terminal version
+
 ├── .env            # API keys (not uploaded)
+
 ├── .gitignore      # Ignores .env
+
 └── README.md       # This file
 
 ---
