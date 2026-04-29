@@ -20,9 +20,7 @@ Fetches **live data** from real APIs and turns it into actionable insights — n
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots here after running the app
+🚀 **Live Demo** → https://weather-aqi-dashboard-cz2etqprhm4e28wt4lnyki.streamlit.app/
 
 ---
 
